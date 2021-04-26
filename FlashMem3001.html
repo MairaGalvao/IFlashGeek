@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FlashMem3001.css">
+    <title>FlashGeek</title>
+</head>
+<body>
+    <main>  
+    <div id="main">
+        <span class= "menuPhrase" onclick="openNav()">&#9776; I Flash Geek
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Rules</a>
+        <a href="#">Levels:</a>
+        <a class = "Set1" href="#">Beginner</a>
+        <a class = "Set2" href="#" onclick="advancedClicked()">Advanced</a>
+        <a href="#">Other languages</a>
+        <a href="https://www.linkedin.com/in/maira-galvao">Social Media</a>
+    </div>
+    <div class="gameOver" style="display: none; font-size: 26px;">Game Over!</div>
+
+    <div class = 'score'> 0 </div>
+   
+    <div class="gameWindow">
+        <div style="text-align: center;">   
+            <span class="question"></span>
+        </div>
+    </div>     
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-12" style="justify-content: center;align-items: center;display: flex;">
+				<div class="row card-animate">
+					<div class="col-4" style="height: 100%;">
+						<div class="card border">								
+							<div class="card-body" onclick= "clickAnswer1()" style="height: 100%;">
+								<div class="card-title">
+									Answer 
+								</div>
+								<p class="card-text a1">Section is a part of the HTML.......</p>
+							</div>
+						</div>
+					</div>
+                    <div class="col-4" style="height: 100%;">
+						<div class="card border">								
+							<div class="card-body" onclick= "clickAnswer2()" style="height: 100%;">
+								<div class="card-title">
+									Answer 
+								</div>
+								<p class="card-text a2">Section is a part of the HTML.......</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4" style="height: 100%;">
+						<div class="card border">								
+							<div class="card-body" onclick= "clickAnswer3()"  style="height: 100%;">
+								<div class="card-title">
+									Answer 
+								</div>
+								<p class="card-text a3">well, I have nothing to write, but, I have to, blabla</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4" style="height: 100%;">
+						<div class="card border">								
+							<div class="card-body" onclick= "clickAnswer4()"  style="height: 100%;">
+								<div class="card-title" >
+									Answer 
+								</div>
+								<p class="card-text a4">here as well, I have nothing to say, but I got talk, blabla</p>
+							
+                            </div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>		
+	</div>
+
+
+    <div class="col-auto" style="color: white; position: absolute; bottom: 28px;">
+        <small>Made with <span style="color: rgb(119, 13, 13); font-size: 18px;">❤</span> by <a style="color: white;" href="https://www.linkedin.com/in/maira-galvao">Maíra Galvão</a> 
+        </small>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="FlashMem3001New.js"></script>
+</body>
+</html>
